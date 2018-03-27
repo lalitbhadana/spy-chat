@@ -13,7 +13,7 @@ def add_status(current_status_message):
             #sprint(status_list)
     else:
         print("Your current message is :" , current_status_message)
-        update_choice=input("If u want to select older status  or add a status ('Y' or 'N') :")
+        update_choice=input("If u want to select older status then prnt 'y' or add a status then print 'n' :")
         
         if update_choice.upper()=='Y':
             for i in range(len(status_list)):
